@@ -1,13 +1,3 @@
-#include <iostream>
-#include <climits>
-#include <vector>
-#include <queue>
-#include <algorithm>
-using namespace std;
-
-struct Node {
-    int i, j;
-};
 
 bool travel(vector<vector<int>> &field, vector<vector<int>> &paths, queue<Node> &q)
 {
